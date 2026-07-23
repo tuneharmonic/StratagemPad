@@ -87,15 +87,15 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "Seeed_Studio_XIAO_Series:XIAO-ESP32-S3-DIP"
+	(footprint "Seeed_Studio_XIAO_Series:XIAO-ESP32-C6-DIP"
 		(layer "F.Cu")
 		(uuid "3222e02c-13bd-4302-85fb-e912fbfc1fbe")
-		(at 166.37 68.58)
+		(at 150.01875 73.81875)
 		(property "Reference" "U1"
-			(at 0.025 -10.35 0)
+			(at -0.125 -10.25 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "6960cefa-3083-475c-b2a4-3bf187e2c6b0")
+			(uuid "1e0a38af-aaa1-4266-a5e8-2e55f295a7e1")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -104,10 +104,10 @@
 			)
 		)
 		(property "Value" "XIAO-ESP32-C6-SMD"
-			(at 0.8185 0 0)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b905af92-e6d5-4a43-bfcc-97dc1eb45d15")
+			(uuid "99aeb889-b43d-46fb-8493-487c1841e7c2")
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -120,7 +120,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1fac2be3-075f-4998-857e-bfe514019d71")
+			(uuid "02645d1f-76e2-4fbd-ab59-24d09e25fcbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,7 +132,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71f84510-21b3-4dd2-888c-6e03433a1ab6")
+			(uuid "cfe03c32-dc00-420d-ba04-20f622a565bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -160,7 +160,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e7edfbc9-c5a0-4602-98fb-3202cbff79c4")
+			(uuid "4551b7cd-cd32-4c6e-8022-d937cc8b7658")
 		)
 		(fp_line
 			(start -8.509 -8.89)
@@ -170,7 +170,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bdb86761-80d7-4d51-8492-d27338aff825")
+			(uuid "fda75a71-ad40-4c5a-a6eb-9e8371ae0c48")
 		)
 		(fp_line
 			(start -8.509 8.89)
@@ -180,7 +180,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4551b7cd-cd32-4c6e-8022-d937cc8b7658")
+			(uuid "13b4b49f-9371-4cb1-a08e-eee5d01f92b2")
 		)
 		(fp_line
 			(start 10.541 -4.495)
@@ -190,7 +190,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4f68f4f0-0736-4dfc-b2a6-9d0f80fac5b0")
+			(uuid "91ec584a-9e0b-498f-b3b6-0219addabf04")
 		)
 		(fp_line
 			(start 10.541 6.985)
@@ -200,7 +200,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "13b4b49f-9371-4cb1-a08e-eee5d01f92b2")
+			(uuid "bdb86761-80d7-4d51-8492-d27338aff825")
 		)
 		(fp_line
 			(start 10.541 6.985)
@@ -210,7 +210,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fda75a71-ad40-4c5a-a6eb-9e8371ae0c48")
+			(uuid "e7edfbc9-c5a0-4602-98fb-3202cbff79c4")
 		)
 		(fp_line
 			(start 11.551 4.504)
@@ -230,7 +230,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "91ec584a-9e0b-498f-b3b6-0219addabf04")
+			(uuid "671fdd74-a1c5-4b53-8553-e1ec1dd51ab7")
 		)
 		(fp_arc
 			(start -10.414 -6.985)
@@ -241,7 +241,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4d96bfea-8bd5-4077-98ad-19028bc3304c")
+			(uuid "64509976-50fe-4d9d-ad90-bae496fb0723")
 		)
 		(fp_arc
 			(start -8.509 8.89)
@@ -263,7 +263,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "64509976-50fe-4d9d-ad90-bae496fb0723")
+			(uuid "6657077b-943f-43ca-8fe5-611ce2503760")
 		)
 		(fp_arc
 			(start 10.541 6.985)
@@ -274,7 +274,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6657077b-943f-43ca-8fe5-611ce2503760")
+			(uuid "4d96bfea-8bd5-4077-98ad-19028bc3304c")
 		)
 		(fp_arc
 			(start 11.551272 -4.491272)
@@ -299,8 +299,8 @@
 			(uuid "40b223be-34a4-41d7-9035-ecb24265c290")
 		)
 		(fp_circle
-			(center 9.52 -7.761)
-			(end 9.774 -7.761)
+			(center 9.42 -7.807)
+			(end 9.674 -7.807)
 			(stroke
 				(width 0.5)
 				(type solid)
@@ -310,8 +310,8 @@
 			(uuid "ab1de681-1563-4ca5-bc5c-602cdc9da96f")
 		)
 		(fp_circle
-			(center 10.4 -8.904)
-			(end 10.654 -8.904)
+			(center 10.3 -8.95)
+			(end 10.554 -8.95)
 			(stroke
 				(width 0.5)
 				(type solid)
@@ -343,8 +343,8 @@
 			(uuid "917ff4e6-c7a5-4199-8a16-2aa8f764db75")
 		)
 		(fp_circle
-			(center 9.526 -7.758)
-			(end 9.78 -7.758)
+			(center 9.426 -7.804)
+			(end 9.68 -7.804)
 			(stroke
 				(width 0.5)
 				(type solid)
@@ -373,7 +373,7 @@
 			(net "Battery Read")
 			(pinfunction "D0_1")
 			(pintype "passive")
-			(uuid "2de4180f-02b1-47ca-86d2-6b8068f1c647")
+			(uuid "c08189d5-0a6b-4d48-892c-17a2c23e232a")
 		)
 		(pad "2" smd roundrect
 			(at 5.08 -8.455 90)
@@ -395,7 +395,7 @@
 			(net "LED R")
 			(pinfunction "D1_2")
 			(pintype "passive")
-			(uuid "bd8afc14-afc7-4345-8d50-b2c73888af9b")
+			(uuid "4883d920-dc28-41bf-94e3-801a24222655")
 		)
 		(pad "3" smd roundrect
 			(at 2.54 -8.455 90)
@@ -417,7 +417,7 @@
 			(net "LED G")
 			(pinfunction "D2_3")
 			(pintype "passive")
-			(uuid "16c93aff-d16a-492e-9c6b-f539e9e05039")
+			(uuid "b41c0278-ea10-4a73-b909-5bd2083b6169")
 		)
 		(pad "4" smd roundrect
 			(at 0 -8.455 90)
@@ -439,7 +439,7 @@
 			(net "LED B")
 			(pinfunction "D3_4")
 			(pintype "passive")
-			(uuid "c08189d5-0a6b-4d48-892c-17a2c23e232a")
+			(uuid "16c93aff-d16a-492e-9c6b-f539e9e05039")
 		)
 		(pad "5" smd roundrect
 			(at -2.54 -8.455 90)
@@ -461,7 +461,7 @@
 			(net "Button 1")
 			(pinfunction "D4_5")
 			(pintype "passive")
-			(uuid "68102e0e-27a3-4ad3-a08d-0ab9f4cbe350")
+			(uuid "d8b6d9c5-c303-44bc-bcd8-497006ff7db3")
 		)
 		(pad "6" smd roundrect
 			(at -5.08 -8.455 90)
@@ -483,7 +483,7 @@
 			(net "Button 2")
 			(pinfunction "D5_6")
 			(pintype "passive")
-			(uuid "4883d920-dc28-41bf-94e3-801a24222655")
+			(uuid "2de4180f-02b1-47ca-86d2-6b8068f1c647")
 		)
 		(pad "7" smd roundrect
 			(at -7.62 -8.455 90)
@@ -505,7 +505,7 @@
 			(net "Button 3")
 			(pinfunction "D6_7")
 			(pintype "passive")
-			(uuid "b41c0278-ea10-4a73-b909-5bd2083b6169")
+			(uuid "bd8afc14-afc7-4345-8d50-b2c73888af9b")
 		)
 		(pad "8" thru_hole circle
 			(at -7.62 7.62 270)
@@ -516,7 +516,7 @@
 			(net "Button 4")
 			(pinfunction "D7_8")
 			(pintype "passive")
-			(uuid "daaba2c5-547e-466c-a9f7-ac5bca8dc093")
+			(uuid "68102e0e-27a3-4ad3-a08d-0ab9f4cbe350")
 		)
 		(pad "8" smd roundrect
 			(at -7.62 8.455 270)
@@ -538,7 +538,7 @@
 			(net "Button 5")
 			(pinfunction "D8_9")
 			(pintype "passive")
-			(uuid "e4834625-2a6f-43ae-9593-ad344a90fe84")
+			(uuid "fd46d515-4501-4ad4-a349-318cae68980c")
 		)
 		(pad "9" smd roundrect
 			(at -5.08 8.455 270)
@@ -560,7 +560,7 @@
 			(net "unconnected-(U1-D9-Pad10)")
 			(pinfunction "D9_10")
 			(pintype "passive")
-			(uuid "bb5cfe40-4ea1-483d-b96c-d42541242dfb")
+			(uuid "e4834625-2a6f-43ae-9593-ad344a90fe84")
 		)
 		(pad "10" smd roundrect
 			(at -2.54 8.455 270)
@@ -582,7 +582,7 @@
 			(net "unconnected-(U1-D10-Pad11)")
 			(pinfunction "D10_11")
 			(pintype "passive")
-			(uuid "413dd8ac-52f7-4352-b85b-1ee850026d36")
+			(uuid "daaba2c5-547e-466c-a9f7-ac5bca8dc093")
 		)
 		(pad "11" smd roundrect
 			(at 0 8.455 270)
@@ -604,7 +604,7 @@
 			(net "unconnected-(U1-3V3_OUT-Pad12)")
 			(pinfunction "3V3_OUT_12")
 			(pintype "passive")
-			(uuid "d8b6d9c5-c303-44bc-bcd8-497006ff7db3")
+			(uuid "d0a83729-08e1-4533-b5d5-904c4dca467e")
 		)
 		(pad "12" smd roundrect
 			(at 2.54 8.455 270)
@@ -626,7 +626,7 @@
 			(net "Ground")
 			(pinfunction "GND_13")
 			(pintype "passive")
-			(uuid "4aef1a25-4dc3-4df7-8707-7b35181a347c")
+			(uuid "6d36f883-209b-452e-9424-097b90f510ee")
 		)
 		(pad "13" smd roundrect
 			(at 5.08 8.455 270)
@@ -648,7 +648,7 @@
 			(net "unconnected-(U1-VBUS-Pad14)")
 			(pinfunction "VBUS_14")
 			(pintype "passive")
-			(uuid "0386be78-da66-40e3-a2e3-f51139ea6169")
+			(uuid "e2e755ed-ab59-48a5-b86e-ef4e7e82b483")
 		)
 		(pad "14" smd roundrect
 			(at 7.62 8.455 270)
@@ -725,7 +725,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "3a21a555-b7e6-4dd9-a0a9-9c07096d6973")
-		(at 109.22 95.25)
+		(at 109.5375 95.25)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW2"
@@ -1408,16 +1408,16 @@
 			)
 		)
 	)
-	(footprint "LED_THT:LED_D5.0mm-4_RGB"
+	(footprint "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 		(layer "F.Cu")
 		(uuid "5196db53-70d2-4cc9-8434-fe7a4f3b322b")
-		(at 193.425 113.885)
-		(descr "LED, RGB, diameter 5.0mm, 4 pins, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.13A).pdf, generated by kicad-footprint-generator")
-		(tags "LED")
+		(at 87.01 76)
+		(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
+		(tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED")
 		(property "Reference" "D1"
-			(at 1.905 -3.96 0)
+			(at 3.2385 -3.96 0)
 			(layer "F.SilkS")
-			(uuid "451c47b4-cd3c-4a93-a282-4becf2ef7d0a")
+			(uuid "6dc33832-3688-40eb-950b-39c80a9038df")
 			(effects
 				(font
 					(size 1 1)
@@ -1426,9 +1426,9 @@
 			)
 		)
 		(property "Value" "LED_BGKR"
-			(at 1.905 3.96 0)
+			(at 3.2385 3.96 0)
 			(layer "F.Fab")
-			(uuid "6176fcbe-746b-4aa1-a418-2b998607d9b9")
+			(uuid "a7bb0ee0-8eb6-4c53-b7c0-8b63d0377521")
 			(effects
 				(font
 					(size 1 1)
@@ -1438,34 +1438,26 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "879e885d-5c0b-480e-a879-09ce9681c6c0")
+			(uuid "6d8619ea-d1c1-4fe5-9922-1ca00d3f7f63")
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Description" "RGB LED, blue/green/cathode/red"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "750b5927-9f3e-444c-9b8e-afb2b6c068a1")
+			(uuid "98ee9449-a3f1-47a8-ae11-301f57327fe8")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "LED/THT"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b408f1f1-39dc-45f7-a7eb-c93220db1c5f")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1483,8 +1475,8 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.655 -1.545)
-			(end -0.655 -1.08)
+			(start 0.6785 -1.545)
+			(end 0.6785 -1.08)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1493,8 +1485,8 @@
 			(uuid "d2d979a8-0744-4103-a81e-98a483187f97")
 		)
 		(fp_line
-			(start -0.655 1.08)
-			(end -0.655 1.545)
+			(start 0.6785 1.08)
+			(end 0.6785 1.545)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1503,9 +1495,9 @@
 			(uuid "9a30b036-1e4b-4303-bba4-71897a20dd6c")
 		)
 		(fp_arc
-			(start -0.655 -1.54483)
-			(mid 2.163898 -2.97877)
-			(end 4.693136 -1.08)
+			(start 0.6785 -1.54483)
+			(mid 3.496956 -2.978809)
+			(end 6.026315 -1.080827)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1514,9 +1506,20 @@
 			(uuid "d14d8525-7a59-4f56-bb38-7d128d555656")
 		)
 		(fp_arc
-			(start -0.349684 -1.08)
-			(mid 1.905 -2.5)
-			(end 4.159684 -1.08)
+			(start 0.983816 -1.08)
+			(mid 3.238262 -2.5)
+			(end 5.492979 -1.080429)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c5d0c3ea-6e9e-4edb-94d2-3a28a66613d4")
+		)
+		(fp_arc
+			(start 5.492979 1.080429)
+			(mid 3.238262 2.5)
+			(end 0.983816 1.08)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1525,9 +1528,9 @@
 			(uuid "1211d3cb-9ec4-41b1-b6ba-dec50e08ae2e")
 		)
 		(fp_arc
-			(start 4.159684 1.08)
-			(mid 1.905 2.5)
-			(end -0.349684 1.08)
+			(start 6.026315 1.080827)
+			(mid 3.496956 2.978808)
+			(end 0.6785 1.54483)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1535,31 +1538,49 @@
 			(layer "F.SilkS")
 			(uuid "6d92404a-b6fb-4a19-84e9-55a2aaddf82e")
 		)
-		(fp_arc
-			(start 4.693136 1.08)
-			(mid 2.163898 2.97877)
-			(end -0.655 1.54483)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c5d0c3ea-6e9e-4edb-94d2-3a28a66613d4")
-		)
-		(fp_rect
-			(start -1.31 -3.21)
-			(end 5.12 3.21)
+		(fp_line
+			(start -1.08 -3.25)
+			(end -1.08 3.25)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.CrtYd")
-			(uuid "a0f632b2-0d8d-4573-8691-fd09302d75d0")
+			(uuid "c6229c7b-44a8-40a1-b1f7-867ff5be2a5f")
 		)
 		(fp_line
-			(start -0.595 -1.469694)
-			(end -0.595 1.469694)
+			(start -1.08 3.25)
+			(end 7.56 3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8cd3e2f7-6605-4c62-b636-963c58ea11e8")
+		)
+		(fp_line
+			(start 7.56 -3.25)
+			(end -1.08 -3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7e65dc58-668b-473a-a757-cc678d82047f")
+		)
+		(fp_line
+			(start 7.56 3.25)
+			(end 7.56 -3.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dd3b41fb-51a1-40db-9dc2-7a17826612b0")
+		)
+		(fp_line
+			(start 0.7385 -1.469694)
+			(end 0.7385 1.469694)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1568,9 +1589,9 @@
 			(uuid "68da18ad-e4ad-4b06-9d66-917f5993c9ae")
 		)
 		(fp_arc
-			(start -0.595 -1.469694)
-			(mid 4.805 0)
-			(end -0.595 1.469694)
+			(start 0.7385 -1.469694)
+			(mid 6.1385 0.000016)
+			(end 0.738484 1.469666)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1579,8 +1600,8 @@
 			(uuid "89440977-d7a3-48f8-a2d1-2f25ef0a3f31")
 		)
 		(fp_circle
-			(center 1.905 0)
-			(end 4.405 0)
+			(center 3.2385 0)
+			(end 5.7385 0)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1590,25 +1611,19 @@
 			(uuid "c80825b6-149c-4d10-9127-aa8f6e6420ca")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.905 0 0)
+			(at 3.2385 -3.96 0)
 			(layer "F.Fab")
 			(uuid "d0893a05-86d5-4c4f-9995-a1f5c6519996")
 			(effects
 				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(point
-			(at 195.33 113.885)
-			(size 2)
-			(layer "F.Fab")
-			(uuid "2920461b-d341-4fb5-a3b3-4e0876177695")
-		)
 		(pad "1" thru_hole rect
 			(at 0 0)
-			(size 1.07 1.8)
+			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1617,9 +1632,9 @@
 			(pintype "passive")
 			(uuid "b262d140-3cc0-4185-823a-58020d8ebf6a")
 		)
-		(pad "2" thru_hole oval
-			(at 1.27 0)
-			(size 1.07 1.8)
+		(pad "2" thru_hole circle
+			(at 2.159 0)
+			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1628,9 +1643,9 @@
 			(pintype "passive")
 			(uuid "6dbc5a6d-f7bf-4e8d-8726-12c427d240d1")
 		)
-		(pad "3" thru_hole oval
-			(at 2.54 0)
-			(size 1.07 1.8)
+		(pad "3" thru_hole circle
+			(at 4.318 0)
+			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1639,9 +1654,9 @@
 			(pintype "passive")
 			(uuid "255b5d66-ed54-48e3-8d85-34221dbca4d2")
 		)
-		(pad "4" thru_hole oval
-			(at 3.81 0)
-			(size 1.07 1.8)
+		(pad "4" thru_hole circle
+			(at 6.477 0)
+			(size 1.8 1.8)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -1651,7 +1666,7 @@
 			(uuid "6059cfab-47aa-4a53-b759-990b3c6b0fc8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB.step"
+		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB_Wide_Pins.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1666,7 +1681,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "57b0e316-2d56-4fab-a592-dfc02a5ba5a2")
-		(at 128.27 95.25)
+		(at 128.5875 95.25)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW4"
@@ -2352,7 +2367,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "7318eb79-4015-4e63-bcbc-26564a7ee34e")
-		(at 187.575 111.475)
+		(at 100.0125 76.2 180)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=2.54mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 2.54mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R3"
@@ -2488,7 +2503,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -2498,7 +2513,7 @@
 			(uuid "190db1a3-8693-45b0-8e28-7cd32757b00e")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 1.4 1.4)
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
@@ -2523,7 +2538,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8e375275-8347-478f-9331-4e6077315235")
-		(at 171.45 38.1)
+		(at 111.91875 72.628125)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=2.54mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 2.54mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R1"
@@ -2694,7 +2709,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "94e0603c-3c7d-4d1a-bf4b-0eb87ca3c829")
-		(at 187.575 108.325)
+		(at 111.91875 75.009375)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Vertical, pin pitch=2.54mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Vertical pin pitch 2.54mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R2"
@@ -2865,7 +2880,7 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "994f0ddf-d85a-463a-841c-e4fa49a33d67")
-		(at 194.565 106.325)
+		(at 105.15625 73.81875)
 		(descr "JST PH series connector, B2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH vertical")
 		(property "Reference" "J1"
@@ -3249,7 +3264,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "adc919b6-4204-481f-bed7-64170d77004e")
-		(at 128.27 76.2)
+		(at 128.5875 76.2)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW3"
@@ -3935,7 +3950,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.50u_90deg"
 		(layer "F.Cu")
 		(uuid "caf1973a-b6ce-4bfa-bc5d-e74014bb8586")
-		(at 90.17 105.6)
+		(at 90.4875 104.775)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.50u 90deg")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.50u 90deg")
 		(property "Reference" "SW1"
@@ -4621,7 +4636,7 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
 		(layer "F.Cu")
 		(uuid "e3a37ceb-767f-4cdf-a824-fc3386099111")
-		(at 147.32 95.25)
+		(at 147.6375 95.25)
 		(descr "Kailh keyswitch Hotswap Socket Keycap 1.00u")
 		(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 1.00u")
 		(property "Reference" "SW5"
@@ -5303,6 +5318,18 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(point
+		(at 80.9625 90.4875)
+		(size 1)
+		(layer "F.SilkS")
+		(uuid "890f6aa9-4eb3-4c9c-8503-6d2ded402c29")
+	)
+	(point
+		(at 80.9625 90.4875)
+		(size 1)
+		(layer "F.SilkS")
+		(uuid "f73d96b4-7e55-47b7-8193-5ab825570f0d")
 	)
 	(embedded_fonts no)
 )
